@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* --- ENCABEZADO --- */
+header {
+  background-color: #ff9800;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #e68900;
+}
+
+/* --- MENÚ HORIZONTAL --- */
+nav.horizontal {
+  background-color: #222;
+  overflow: hidden;
+}
+
+nav.horizontal a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav.horizontal a:hover {
+  background-color: #575757;
+}
+
+/* --- CONTENEDOR PRINCIPAL --- */
+.container {
+  display: flex;
+  min-height: 70vh;
+}
+
+/* --- MENÚ LATERAL --- */
+aside {
+  width: 20%;
+  background-color: #eee;
+  padding: 20px;
+  border-right: 2px solid #ccc;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside li {
+  margin: 10px 0;
+}
+
+aside a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+aside a:hover {
+  color: #ff9800;
+}
+
+/* --- CONTENIDO PRINCIPAL --- */
+section.content {
+  width: 80%;
+  padding: 20px;
+  background-color: white;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #ff9800;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
